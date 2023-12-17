@@ -9,3 +9,15 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.texto-sobreposto p{
+  font-size:35px;
+  color:#daa520;
+  font-family: 'Dancing Script', cursive;
+}
+
+.texto-sobreposto h1{
+  font-size:50px;
+  color: #ffd700; /* Código de cor para dourado */
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8); /* Adiciona um brilho com sombra */
+}

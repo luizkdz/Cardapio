@@ -1,16 +1,22 @@
 .card-cardapio{
+    background-color: #f3f3f3;
+    border:2px solid #daa520;
+    border-radius:5px;
     display:flex;
     flex-direction:column;
     margin:20px;
-    height:520px;    
-    width:360px;
+    
+    width:450px;
 }
 .card-cardapio img{
     height:300px;
+    width:450px;
 }
 
 .area-cardapio{
+    background-color:#f3f3f3;
     align-items: center;
+    justify-content: center;
     flex-wrap:wrap;
     flex-grow:1;
     width:100%;
@@ -18,5 +24,34 @@
 }
 
 .area-texto-cardapio{
-    width:350px;
+    text-align: start;
+    width:450px;
+}
+
+.descricao{
+    height:100px;
+    width:250px;
+}
+
+.secao-cardapio h1{
+   
+    font-family:'Dancing Script', cursive;
+}
+
+.titulo-cardapio{
+    color:#daa520;
+}
+
+.categoria{
+    color:#daa520;
+}
+
+.preco{
+    margin-right:10px;
+    text-align:end;
+    font-weight: bold;
+}
+
+.area-texto-cardapio h1, p{
+    margin:10px;
 }

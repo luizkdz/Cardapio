@@ -8,8 +8,8 @@ export default function Banner(){
             <div className = "secao-banner">
                 <img src = {ImagemBanner} className = "imagem-banner"/>
             <div className = "texto-sobreposto">
-                <h1>RESTAURANT</h1>
-                <p>De pratos clássicos a criações surpreendentes<br/>, nosso cardápio é um requinte de sabores<br/> refinados</p>
+                <h1 class="titulo-restaurante">RESTAURANT</h1>
+                <p>De pratos clássicos a criações surpreendentes,<br/> nosso cardápio é um requinte de sabores<br/> refinados</p>
             </div>
             </div>
         </div>

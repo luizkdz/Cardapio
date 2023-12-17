@@ -4,6 +4,7 @@
 }
 
 .card-botao{
+    background-color:#f3f3f3;
     justify-content: center;
     display:flex;
     align-items: center;
@@ -20,9 +21,13 @@
     font-size:15px;
 }
 .card-botao:hover{
-    background-color: yellow;
+    background-color: #daa520
 }
 
 .texto-botao{
     justify-content:center ;
+}
+
+.texto-botao span{
+    margin-right:10px;
 }
