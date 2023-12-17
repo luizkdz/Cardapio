@@ -1,0 +1,28 @@
+.container-botoes{
+    justify-content: center;
+    display:flex;
+}
+
+.card-botao{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    margin:20px;
+    width:150px;
+    border: 1px solid grey;;
+    border-radius:15px;
+}
+.card-botao img{
+    width:40px;
+    margin:5px;
+}
+.card-botao p{
+    font-size:15px;
+}
+.card-botao:hover{
+    background-color: yellow;
+}
+
+.texto-botao{
+    justify-content:center ;
+}

@@ -1,0 +1,22 @@
+.card-cardapio{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    height:520px;    
+    width:360px;
+}
+.card-cardapio img{
+    height:300px;
+}
+
+.area-cardapio{
+    align-items: center;
+    flex-wrap:wrap;
+    flex-grow:1;
+    width:100%;
+    display:flex;
+}
+
+.area-texto-cardapio{
+    width:350px;
+}

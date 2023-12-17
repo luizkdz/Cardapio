@@ -1,0 +1,29 @@
+.campo-pesquisa{
+    width:300px;
+    border:1px solid grey;
+}
+.secao-pesquisa{
+    display:flex;
+    justify-content: center;
+    
+}
+.input-com-imagem {
+    display:flex;
+    width:1150px;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px;
+  }
+
+
+  .input-com-imagem img {
+    width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 5px; /* Adiciona um espaço entre a imagem e o input */
+  }
+  
+.input-com-imagem input {
+    border: none;
+    outline: none;
+    flex: 1;
+  }
