@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {Alimentos} from './colecaoAlimentosBotoes';
 import './styleCardBotao.css';
 
-// CardBotoes.js
 export const CardBotoes = ({ onCategoriaSelecionada }) => {
     return (
       <div className="container-botoes">
